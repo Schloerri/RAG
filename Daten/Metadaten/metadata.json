@@ -1,0 +1,55 @@
+{
+    "nigredo.txt": {
+      "title": "Nigredo",
+      "phase": "1",
+      "epoch": "europäisches Mittelalter",
+      "category": "Prozessphase",
+      "description": "Die schwarze Phase der alchemistischen Transformation, Symbol für Zerfall und Reinigung."
+    },
+    "albedo.txt": {
+      "title": "Albedo",
+      "phase": "2",
+      "epoch": "europäisches Mittelalter",
+      "category": "Prozessphase",
+      "description": "Die weiße Phase der Reinigung, symbolisiert geistige Klarheit und Läuterung."
+    },
+    "citrinitas.txt": {
+      "title": "Citrinitas",
+      "phase": "3",
+      "epoch": "europäisches Mittelalter",
+      "category": "Prozessphase",
+      "description": "Die gelbe Phase, steht für das Erwachen des Bewusstseins und Vorbereitung auf die Vollendung."
+    },
+    "rubedo.txt": {
+      "title": "Rubedo",
+      "phase": "4",
+      "epoch": "europäisches Mittelalter",
+      "category": "Prozessphase",
+      "description": "Die rote Phase der Vollendung und Wiedergeburt; symbolisiert die Integration des Selbst."
+    },
+    "quecksilber.txt": {
+      "title": "Quecksilber",
+      "epoch": "europäisches Mittelalter",
+      "category": "Grundsubstanz",
+      "description": "Wichtiges alchemistisches Prinzip, steht für das weiblich-flüchtige Element."
+    },
+    "schwefelprozess.txt": {
+      "title": "Schwefelprozess",
+      "epoch": "europäisches Mittelalter",
+      "category": "Grundsubstanz",
+      "description": "Symbolisiert das männlich-feurige Prinzip in der Alchemie, Teil des Tria-Prinzips."
+    },
+    "salzprozess.txt": {
+      "title": "Salzprozess",
+      "epoch": "europäisches Mittelalter",
+      "category": "Grundsubstanz",
+      "description": "Symbol für das körperliche Prinzip, das Materie zusammenhält – der dritte Teil des Tria-Prinzips."
+    },
+    "paracelsus.txt": {
+      "title": "Paracelsus",
+      "epoch": "16. Jahrhundert",
+      "category": "Person",
+      "description": "Einflussreicher Arzt und Alchemist, der das Prinzip von Schwefel, Quecksilber und Salz prägte."
+    }
+  }
+  
