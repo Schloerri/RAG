@@ -6,8 +6,8 @@ from haystack import Document
 from haystack.nodes import EmbeddingRetriever
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-TEXT_DIR = os.path.join(BASE_DIR, "..", "Daten", "Textdaten")
-META_PATH = os.path.join(BASE_DIR, "..", "Daten", "Metadaten", "metadata.json")
+TEXT_DIR = os.path.join(BASE_DIR, "..", "scraping", "data")
+META_PATH = os.path.join(BASE_DIR, "..", "scraping", "metadata", "metadata.json")
 FAISS_DIR = os.path.join(BASE_DIR, "..", "faiss_index")
 FAISS_INDEX_PATH = os.path.join(FAISS_DIR, "faiss.index")  
 FAISS_DB_PATH = os.path.join(FAISS_DIR, 'faiss_db.sqlite')

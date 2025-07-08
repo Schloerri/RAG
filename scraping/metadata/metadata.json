@@ -1,0 +1,240 @@
+{
+  "alchemie.txt": {
+    "title": "Alchemie",
+    "phase": "Frühphase",
+    "epoch": "Antike",
+    "category": "Grundlagen",
+    "description": "Frühe Vorläufer der Chemie."
+  },
+  "hermetik.txt": {
+    "title": "Hermetik",
+    "phase": "Blüte",
+    "epoch": "Antike",
+    "category": "Philosophie",
+    "description": "Esoterische Lehre um Hermes Trismegistos."
+  },
+  "stein_der_weisen.txt": {
+    "title": "Stein der Weisen",
+    "phase": "Reifephase",
+    "epoch": "Mittelalter",
+    "category": "Symbolik",
+    "description": "Mythischer Stein zur Goldherstellung."
+  },
+  "paracelsus.txt": {
+    "title": "Paracelsus",
+    "phase": "Spätphase",
+    "epoch": "Renaissance",
+    "category": "Person",
+    "description": "Bekannter Arzt und Alchemist."
+  },
+  "goldherstellung.txt": {
+    "title": "Goldherstellung",
+    "phase": "Reifephase",
+    "epoch": "Mittelalter",
+    "category": "Praxis",
+    "description": "Verwandlung von Metallen in Gold."
+  },
+  "transmutation.txt": {
+    "title": "Transmutation",
+    "phase": "Reifephase",
+    "epoch": "Mittelalter",
+    "category": "Praxis",
+    "description": "Umwandlung chemischer Elemente."
+  },
+  "alkahest.txt": {
+    "title": "Alkahest",
+    "phase": "Blüte",
+    "epoch": "Renaissance",
+    "category": "Theorie",
+    "description": "Hypothetisches Universal-Lösungsmittel."
+  },
+  "chymie.txt": {
+    "title": "Chymie",
+    "phase": "Frühphase",
+    "epoch": "Antike",
+    "category": "Grundlagen",
+    "description": "Ältere Bezeichnung für Chemie."
+  },
+  "spagyrik.txt": {
+    "title": "Spagyrik",
+    "phase": "Spätphase",
+    "epoch": "Renaissance",
+    "category": "Heilkunde",
+    "description": "Alchemistische Arzneibereitung."
+  },
+  "alraune.txt": {
+    "title": "Alraune",
+    "phase": "Blüte",
+    "epoch": "Mittelalter",
+    "category": "Pflanze",
+    "description": "Mystische Heilpflanze."
+  },
+  "aludel.txt": {
+    "title": "Aludel",
+    "phase": "Reifephase",
+    "epoch": "Mittelalter",
+    "category": "Gerät",
+    "description": "Sublimationsgefäß der Alchemie."
+  },
+  "rosenkreuzer.txt": {
+    "title": "Rosenkreuzer",
+    "phase": "Spätphase",
+    "epoch": "Frühe Neuzeit",
+    "category": "Geheimbund",
+    "description": "Spirituelle Geheimgesellschaft."
+  },
+  "johann_friedrich_böttger.txt": {
+    "title": "Johann Friedrich Böttger",
+    "phase": "Spätphase",
+    "epoch": "Barock",
+    "category": "Person",
+    "description": "Erfinder des europäischen Porzellans."
+  },
+  "quecksilber.txt": {
+    "title": "Quecksilber",
+    "phase": "Frühphase",
+    "epoch": "Antike",
+    "category": "Element",
+    "description": "Metallisches Element, Symbol Hg."
+  },
+  "hermetische_philosophie.txt": {
+    "title": "Hermetische Philosophie",
+    "phase": "Blüte",
+    "epoch": "Antike",
+    "category": "Philosophie",
+    "description": "Geheimlehre des Hermes Trismegistos."
+  },
+  "tabula_smaragdina.txt": {
+    "title": "Tabula Smaragdina",
+    "phase": "Blüte",
+    "epoch": "Antike",
+    "category": "Schrift",
+    "description": "Grundlagentext der Hermetik."
+  },
+  "vier-elemente-lehre.txt": {
+    "title": "Vier-Elemente-Lehre",
+    "phase": "Frühphase",
+    "epoch": "Antike",
+    "category": "Theorie",
+    "description": "Lehre der vier Naturelemente."
+  },
+  "quintessenz.txt": {
+    "title": "Quintessenz",
+    "phase": "Reifephase",
+    "epoch": "Mittelalter",
+    "category": "Theorie",
+    "description": "Fünftes Element in der Alchemie."
+  },
+  "opus_magnum.txt": {
+    "title": "Opus Magnum",
+    "phase": "Reifephase",
+    "epoch": "Mittelalter",
+    "category": "Praxis",
+    "description": "Alchemistisches Meisterwerk."
+  },
+  "azoth.txt": {
+    "title": "Azoth",
+    "phase": "Blüte",
+    "epoch": "Mittelalter",
+    "category": "Symbolik",
+    "description": "Geistige Substanz der Alchemie."
+  },
+  "lapislazuli.txt": {
+    "title": "Lapislazuli",
+    "phase": "Frühphase",
+    "epoch": "Antike",
+    "category": "Mineral",
+    "description": "Tiefblauer Schmuckstein."
+  },
+  "caduceus.txt": {
+    "title": "Caduceus",
+    "phase": "Frühphase",
+    "epoch": "Antike",
+    "category": "Symbol",
+    "description": "Hermesstab mit Schlangen."
+  },
+  "hermes_trismegistos.txt": {
+    "title": "Hermes Trismegistos",
+    "phase": "Blüte",
+    "epoch": "Antike",
+    "category": "Person",
+    "description": "Mythischer Weiser der Hermetik."
+  },
+  "corpus_hermeticum.txt": {
+    "title": "Corpus Hermeticum",
+    "phase": "Blüte",
+    "epoch": "Antike",
+    "category": "Schrift",
+    "description": "Schriften der Hermetischen Lehre."
+  },
+  "kybalion.txt": {
+    "title": "Kybalion",
+    "phase": "Moderne",
+    "epoch": "20. Jh.",
+    "category": "Buch",
+    "description": "Moderne Lehre der Hermetik."
+  },
+  "gnosis.txt": {
+    "title": "Gnosis",
+    "phase": "Frühphase",
+    "epoch": "Antike",
+    "category": "Philosophie",
+    "description": "Religiöse Geheimlehre."
+  },
+  "zosimos_von_panopolis.txt": {
+    "title": "Zosimos von Panopolis",
+    "phase": "Blüte",
+    "epoch": "Antike",
+    "category": "Person",
+    "description": "Antiker Alchemist."
+  },
+  "maria_die_jüdin.txt": {
+    "title": "Maria die Jüdin",
+    "phase": "Frühphase",
+    "epoch": "Antike",
+    "category": "Person",
+    "description": "Frühe Alchemistin und Erfinderin."
+  },
+  "artephius.txt": {
+    "title": "Artephius",
+    "phase": "Reifephase",
+    "epoch": "Mittelalter",
+    "category": "Person",
+    "description": "Alchemist des 12. Jahrhunderts."
+  },
+  "fulcanelli.txt": {
+    "title": "Fulcanelli",
+    "phase": "Moderne",
+    "epoch": "20. Jh.",
+    "category": "Person",
+    "description": "Geheimnisvoller Alchemist und Autor."
+  },
+  "isaac_newton.txt": {
+    "title": "Isaac Newton",
+    "phase": "Spätphase",
+    "epoch": "Frühe Neuzeit",
+    "category": "Person",
+    "description": "Universalgelehrter mit Alchemiebezug."
+  },
+  "agrippa_von_nettesheim.txt": {
+    "title": "Agrippa von Nettesheim",
+    "phase": "Spätphase",
+    "epoch": "Renaissance",
+    "category": "Person",
+    "description": "Magier und Universalgelehrter."
+  },
+  "john_dee.txt": {
+    "title": "John Dee",
+    "phase": "Spätphase",
+    "epoch": "Renaissance",
+    "category": "Person",
+    "description": "Englischer Mystiker und Berater."
+  },
+  "nicolas_flamel.txt": {
+    "title": "Nicolas Flamel",
+    "phase": "Reifephase",
+    "epoch": "Mittelalter",
+    "category": "Person",
+    "description": "Legendärer Alchemist."
+  }
+}
