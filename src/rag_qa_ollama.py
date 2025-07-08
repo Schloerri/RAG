@@ -22,11 +22,15 @@ retriever = EmbeddingRetriever(
 query = input("Was möchtest du über Alchemie wissen? ➤ ")
 
 retrieved_docs = retriever.retrieve(query=query, top_k=3)
+
 context = "\n\n".join([doc.content for doc in retrieved_docs])
 
 sources = "\n".join([f"Quelle: {doc.meta.get('source', 'Unbekannt')} - Inhalt: {doc.content[:200]}..." for doc in retrieved_docs])
 
-prompt = f"""Beantworte die folgende Frage basierend auf dem bereitgestellten Kontext. Gib am Ende die genauen Quellen an, aus denen du Informationen gezogen hast. Falls du keine Antwort im Kontext findest, gib das ehrlich zu.
+prompt = f"""
+Beantworte die folgende Frage sachlich korrekt, ausführlich, direkt und inhaltlich passend, basierend ausschließlich auf dem angegebenen Kontext. Die Antwort soll klar und vollständig sein, aber ohne unnötige Ausschmückungen. Verwende nur Informationen, die explizit im Kontext vorhanden sind. Wenn keine ausreichenden Informationen im Kontext enthalten sind, erkläre dies offen.
+
+Wichtig: Schreibe die Frage nicht um. Gib nach der Antwort nur den Dateinamen der genutzten Quelle(n) an, ohne Textausschnitte oder Zusammenfassungen.
 
 Frage:
 {query}
@@ -37,7 +41,7 @@ Kontext:
 Antwort:
 """
 
-prompt += "\n\nBitte liste nun die verwendeten Quellen mit Dateiname auf:\n"
+
 prompt += sources
 
 
@@ -46,7 +50,7 @@ response = requests.post(
     json={
         "model": "mistral",
         "messages": [{"role": "user", "content": prompt}],
-        "stream": True
+        "stream": False
     },
     stream=True
 )
