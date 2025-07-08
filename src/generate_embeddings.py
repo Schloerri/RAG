@@ -32,14 +32,12 @@ document_store = FAISSDocumentStore(
     faiss_index_factory_str="Flat",
     sql_url=f"sqlite:///{FAISS_DB_PATH}"
 )
-
 document_store.write_documents(documents)
 
 retriever = EmbeddingRetriever(
     document_store=document_store,
     embedding_model="sentence-transformers/all-MiniLM-L6-v2"
 )
-
 document_store.update_embeddings(retriever)
 
 if not os.path.exists(FAISS_DIR):

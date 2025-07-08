@@ -27,10 +27,7 @@ context = "\n\n".join([doc.content for doc in retrieved_docs])
 
 sources = "\n".join([f"Quelle: {doc.meta.get('source', 'Unbekannt')} - Inhalt: {doc.content[:200]}..." for doc in retrieved_docs])
 
-prompt = f"""
-Beantworte die folgende Frage sachlich korrekt, ausführlich, direkt und inhaltlich passend, basierend ausschließlich auf dem angegebenen Kontext. Die Antwort soll klar und vollständig sein, aber ohne unnötige Ausschmückungen. Verwende nur Informationen, die explizit im Kontext vorhanden sind. Wenn keine ausreichenden Informationen im Kontext enthalten sind, erkläre dies offen.
-
-Wichtig: Schreibe die Frage nicht um. Gib nach der Antwort nur den Dateinamen der genutzten Quelle(n) an, ohne Textausschnitte oder Zusammenfassungen.
+prompt = f""Beantworte die folgende Frage basierend auf dem Kontext unten. Stelle sicher, dass deine Antwort ausführlich und relevant zur Frage ist. Wenn der Kontext die Antwort nicht enthält, gib zu, dass du es nicht weißt
 
 Frage:
 {query}
